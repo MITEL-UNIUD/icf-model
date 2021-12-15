@@ -1,0 +1,2705 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/enzo/ontologies/2018/0/ICF2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/enzo/ontologies/2018/0/ICF2">
+    <Prefix name="" IRI="http://www.semanticweb.org/enzo/ontologies/2018/0/ICF2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.ontologyportal.org/SUMO</Import>
+    <Declaration>
+        <Class IRI="#Hindrance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NarrowerTerm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hinders"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#influencedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParticipativeDegreeOfInvolvement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#definition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK6J_Proximal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfluencingManner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICFCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Some_difficulty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopologyLaterality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK7F_Superficial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopologyRelational"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContextualFactorParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInclusionTerm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK62_Brachial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XB01.1_Maintaining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecificCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassificationProperty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT3N_Perinatal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Substantial_facilitation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_facilitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICFContentModel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProductSpecialization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalFactors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT15_Young_Adult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParticipativeFrequencyOfSocialInvolvement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFullySpecifiedName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInfluencingManner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#partOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT16_Neonatal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodyFunctionPrerequisite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK16_Deep"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComplexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represents"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK18_Supratentorial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Complete_difficulty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synonym"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopologyLaterality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExclusionTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthDomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FullySpecifiedName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualifiedBodyFunction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Outdoor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK3Z_Ipsilateral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_facilitation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Severe_difficulty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopologyRegional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Complex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#TimeDuration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK9H_Medial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyFunctionPrerequisite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Multiple_task"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT6S_Adult"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_level"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParticipativeFrequencyOfSocialInvolvement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSynonym"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#located"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#IntentionalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Object"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Usually"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualifiedActivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK3Y_Contralateral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chapter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExclusionTerm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#barrierLevel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_hindrance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopologyRegional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Always"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK9K_Right"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK2H_External"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Complete_hindrance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK0P_Infratentorial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyStructures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_Smith&apos;s_state_2017_nov_23"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#SexAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcessPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Physical"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClassificationProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facilitation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasShortDefinition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XB01.2_Discontinuing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextualFactors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Some_hindrance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Severe_hindrance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK8L_Posterior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.adampease.org/OP/SUMO.owl#manner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#relatedEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK2J_Cranial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT7Q_Early_Adolescence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Not_adapted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK87_Dorsal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDetailedDefinition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#subclass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#facilitationLevel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indoor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lifting_light_small_objects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#capacity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adapted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT7M_Adolescent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivityPrerequisite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LifeCycleAge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ICFContentModelParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextualFactorParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complexity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#part"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mild_facilitation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualifiedBodyStructure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#facilitates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfluencingFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT2C_Infancy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Taxonomy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT30_Late_Neonatal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#destination"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#influences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfluenceableComponent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT50_Child_over_5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facilitator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT19_Early_Geriatric"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT9X_Late_Adolescence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_difficulty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qualifiers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK4M_Ventral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XB01.0_Initiating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK06_Caudal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivityAssessed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simple"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAreaOfInfluence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InclusionTerm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT6P_Early_Neonatal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductSpecialization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AreaOfInfluence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sometimes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mild_hindrance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK09_Lateral"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSex"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Complete_facilitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Difficulty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InfluenceableHealthEntity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_Smith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyStructureInvolved"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Often"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#destination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Single_task"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_difficulty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#BiologicalAttribute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK9J_Bilateral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Abstract"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Never"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK7V_Anterior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hindrancedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpecificCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonalFactors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Some_facilitation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopologyRelational"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjectEnvironmentalFactors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParticipativeDegreeOfInvolvement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Block"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK49_Internal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT4X_Child_under_5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK70_Unilateral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualifiedParticipativeActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#facilitatedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_hindrance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNarrowerTerm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mild_difficulty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodyStructureInvolved"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK8G_Left"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#SubjectiveAssessmentAttribute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Going_around"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XK6C_Distal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessEnvironmentalFactors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaskMultiplicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyFunctions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#factor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT9V_Middle_Childhood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT13_Late_Geriatric"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XT4T_Middle_Adolescence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LifeSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTaskMultiplicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#AnatomicalStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Term"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActivityPrerequisite"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#ActivityAssessed"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ActivitiesAndParticipation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#activity"/>
+                <Class IRI="#QualifiedActivity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ActivityPrerequisite"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ActivitiesAndParticipation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasActivityPrerequisite"/>
+                <Class IRI="#ActivitiesAndParticipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Barrier"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Influence"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hinders"/>
+                <ObjectUnionOf>
+                    <Class IRI="#HealthState"/>
+                    <Class IRI="#InfluenceableComponent"/>
+                    <Class IRI="#QualifiedActivity"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#BodyFunctionPrerequisite"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BodyFunctions"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasBodyFunctionPrerequisite"/>
+                <Class IRI="#BodyFunctions"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#BodyStructureInvolved"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#BodyStructures"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasBodyStructureInvolved"/>
+                <Class IRI="#ActivitiesAndParticipation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ExclusionTerm"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Term"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasExclusionTerm"/>
+                <Class IRI="#ICFCategory"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Facilitator"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Influence"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#facilitates"/>
+                <ObjectUnionOf>
+                    <Class IRI="#HealthState"/>
+                    <Class IRI="#InfluenceableComponent"/>
+                    <Class IRI="#QualifiedActivity"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Influence"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ContextualFactors"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#influences"/>
+                <ObjectUnionOf>
+                    <Class IRI="#HealthState"/>
+                    <Class IRI="#InfluenceableComponent"/>
+                    <Class IRI="#QualifiedActivity"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InfluenceableHealthEntity"/>
+        <ObjectUnionOf>
+            <Class IRI="#HealthState"/>
+            <Class IRI="#InfluenceableComponent"/>
+            <Class IRI="#QualifiedActivity"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InfluencingFactor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ContextualFactors"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#factor"/>
+                <Class IRI="#Influence"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#QualifiedParticipativeActivity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#QualifiedActivity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#destination"/>
+                <Class IRI="#LifeSituation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ActivitiesAndParticipation"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#IntentionalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActivitiesAndParticipation"/>
+        <Class IRI="#HealthDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+        <Class IRI="#ICFContentModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActivityPrerequisite"/>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AreaOfInfluence"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AreaOfInfluence"/>
+        <Class IRI="#ContextualFactorParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Block"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyFunctionPrerequisite"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyFunctionPrerequisite"/>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyFunctions"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyFunctions"/>
+        <Class IRI="#HealthDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyStructureInvolved"/>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyStructures"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#AnatomicalStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyStructures"/>
+        <Class IRI="#HealthDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Category"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chapter"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassificationProperty"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Taxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassificationProperty"/>
+        <Class IRI="#ICFContentModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Code"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Code"/>
+        <Class IRI="#Title"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Code"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCode"/>
+            <Class IRI="#Code"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complexity"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#SubjectiveAssessmentAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complexity"/>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Component"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextualFactorParameter"/>
+        <Class IRI="#ICFContentModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextualFactors"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextualFactors"/>
+        <Class IRI="#ICFCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Difficulty"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#SubjectiveAssessmentAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Difficulty"/>
+        <Class IRI="#Qualifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalFactors"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalFactors"/>
+        <Class IRI="#ContextualFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facilitation"/>
+        <Class IRI="#Qualifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullySpecifiedName"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullySpecifiedName"/>
+        <Class IRI="#Title"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullySpecifiedName"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFullySpecifiedName"/>
+            <Class IRI="#FullySpecifiedName"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthDomain"/>
+        <Class IRI="#ICFCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthState"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hindrance"/>
+        <Class IRI="#Qualifiers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICF"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICFCategory"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Taxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICFContentModel"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICFContentModel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#partOf"/>
+            <Class IRI="#ICF"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InclusionTerm"/>
+        <Class IRI="#Term"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfluenceableComponent"/>
+        <Class IRI="#Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfluenceableHealthEntity"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InfluencingManner"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LifeCycleAge"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#TimeDuration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LifeCycleAge"/>
+        <Class IRI="#SpecificCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LifeSituation"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NarrowerTerm"/>
+        <Class IRI="#Term"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectEnvironmentalFactors"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectEnvironmentalFactors"/>
+        <Class IRI="#EnvironmentalFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parent"/>
+        <Class IRI="#ClassificationProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParticipativeDegreeOfInvolvement"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#SubjectiveAssessmentAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParticipativeDegreeOfInvolvement"/>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParticipativeFrequencyOfSocialInvolvement"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#SubjectiveAssessmentAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParticipativeFrequencyOfSocialInvolvement"/>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersonalFactors"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#BiologicalAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersonalFactors"/>
+        <Class IRI="#ContextualFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessEnvironmentalFactors"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessEnvironmentalFactors"/>
+        <Class IRI="#EnvironmentalFactors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessPhase"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessPhase"/>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductSpecialization"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProductSpecialization"/>
+        <Class IRI="#ContextualFactorParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualifiedActivity"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#IntentionalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualifiedBodyFunction"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualifiedBodyStructure"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#AnatomicalStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualifiers"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualifiers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#partOf"/>
+            <Class IRI="#ICF"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sex"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#SexAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sex"/>
+        <Class IRI="#SpecificCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificCondition"/>
+        <Class IRI="#ICFContentModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synonym"/>
+        <Class IRI="#Term"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaskMultiplicity"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaskMultiplicity"/>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Term"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Abstract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Term"/>
+        <Class IRI="#ICFContentModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title"/>
+        <Class IRI="#ICFContentModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topology"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topology"/>
+        <Class IRI="#ICFContentModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopologyLaterality"/>
+        <Class IRI="#Topology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopologyRegional"/>
+        <Class IRI="#Topology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopologyRelational"/>
+        <Class IRI="#Topology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#ClassificationProperty"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ActivitiesAndParticipation"/>
+        <Class IRI="#BodyFunctions"/>
+        <Class IRI="#BodyStructures"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Block"/>
+        <Class IRI="#Category"/>
+        <Class IRI="#Chapter"/>
+        <Class IRI="#Component"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ContextualFactors"/>
+        <Class IRI="#HealthDomain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EnvironmentalFactors"/>
+        <Class IRI="#PersonalFactors"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#ProductSpecialization"/>
+        <NamedIndividual IRI="#Adapted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParticipativeFrequencyOfSocialInvolvement"/>
+        <NamedIndividual IRI="#Always"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Complete_difficulty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facilitation"/>
+        <NamedIndividual IRI="#Complete_facilitation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hindrance"/>
+        <NamedIndividual IRI="#Complete_hindrance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Complexity"/>
+        <NamedIndividual IRI="#Complex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sex"/>
+        <NamedIndividual IRI="#Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NarrowerTerm"/>
+        <NamedIndividual IRI="#Going_around"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParticipativeDegreeOfInvolvement"/>
+        <NamedIndividual IRI="#High_level"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AreaOfInfluence"/>
+        <NamedIndividual IRI="#Indoor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#John_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivitiesAndParticipation"/>
+        <NamedIndividual IRI="#Lifting_light_small_objects"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParticipativeDegreeOfInvolvement"/>
+        <NamedIndividual IRI="#Low_level"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sex"/>
+        <NamedIndividual IRI="#Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Complexity"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParticipativeDegreeOfInvolvement"/>
+        <NamedIndividual IRI="#Medium_level"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Mild_difficulty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facilitation"/>
+        <NamedIndividual IRI="#Mild_facilitation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hindrance"/>
+        <NamedIndividual IRI="#Mild_hindrance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Moderate_difficulty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facilitation"/>
+        <NamedIndividual IRI="#Moderate_facilitation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hindrance"/>
+        <NamedIndividual IRI="#Moderate_hindrance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TaskMultiplicity"/>
+        <NamedIndividual IRI="#Multiple_task"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParticipativeFrequencyOfSocialInvolvement"/>
+        <NamedIndividual IRI="#Never"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Difficulty"/>
+        <NamedIndividual IRI="#No_difficulty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facilitation"/>
+        <NamedIndividual IRI="#No_facilitation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hindrance"/>
+        <NamedIndividual IRI="#No_hindrance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductSpecialization"/>
+        <NamedIndividual IRI="#Not_adapted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParticipativeFrequencyOfSocialInvolvement"/>
+        <NamedIndividual IRI="#Often"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AreaOfInfluence"/>
+        <NamedIndividual IRI="#Outdoor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Severe_difficulty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hindrance"/>
+        <NamedIndividual IRI="#Severe_hindrance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Complexity"/>
+        <NamedIndividual IRI="#Simple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TaskMultiplicity"/>
+        <NamedIndividual IRI="#Single_task"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Difficulty"/>
+        <NamedIndividual IRI="#Some_difficulty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facilitation"/>
+        <NamedIndividual IRI="#Some_facilitation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hindrance"/>
+        <NamedIndividual IRI="#Some_hindrance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParticipativeFrequencyOfSocialInvolvement"/>
+        <NamedIndividual IRI="#Sometimes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facilitation"/>
+        <NamedIndividual IRI="#Substantial_facilitation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParticipativeFrequencyOfSocialInvolvement"/>
+        <NamedIndividual IRI="#Usually"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProcessPhase"/>
+        <NamedIndividual IRI="#XB01.0_Initiating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProcessPhase"/>
+        <NamedIndividual IRI="#XB01.1_Maintaining"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProcessPhase"/>
+        <NamedIndividual IRI="#XB01.2_Discontinuing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRegional"/>
+        <NamedIndividual IRI="#XK06_Caudal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK09_Lateral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRegional"/>
+        <NamedIndividual IRI="#XK0P_Infratentorial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK16_Deep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRegional"/>
+        <NamedIndividual IRI="#XK18_Supratentorial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK2H_External"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRegional"/>
+        <NamedIndividual IRI="#XK2J_Cranial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK3Y_Contralateral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK3Z_Ipsilateral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK49_Internal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK4M_Ventral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRegional"/>
+        <NamedIndividual IRI="#XK62_Brachial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK6C_Distal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK6J_Proximal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyLaterality"/>
+        <NamedIndividual IRI="#XK70_Unilateral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK7F_Superficial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK7V_Anterior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK87_Dorsal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyLaterality"/>
+        <NamedIndividual IRI="#XK8G_Left"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK8L_Posterior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyRelational"/>
+        <NamedIndividual IRI="#XK9H_Medial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyLaterality"/>
+        <NamedIndividual IRI="#XK9J_Bilateral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TopologyLaterality"/>
+        <NamedIndividual IRI="#XK9K_Right"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT13_Late_Geriatric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT15_Young_Adult"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT16_Neonatal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT19_Early_Geriatric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT2C_Infancy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT30_Late_Neonatal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT3N_Perinatal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT4T_Middle_Adolescence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT4X_Child_under_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT50_Child_over_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT6P_Early_Neonatal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT6S_Adult"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT7M_Adolescent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT7Q_Early_Adolescence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT9V_Middle_Childhood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LifeCycleAge"/>
+        <NamedIndividual IRI="#XT9X_Late_Adolescence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HealthState"/>
+        <NamedIndividual IRI="#John_Smith&apos;s_state_2017_nov_23"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Adapted"/>
+        <NamedIndividual IRI="#Always"/>
+        <NamedIndividual IRI="#Complex"/>
+        <NamedIndividual IRI="#Female"/>
+        <NamedIndividual IRI="#High_level"/>
+        <NamedIndividual IRI="#Indoor"/>
+        <NamedIndividual IRI="#Low_level"/>
+        <NamedIndividual IRI="#Male"/>
+        <NamedIndividual IRI="#Medium"/>
+        <NamedIndividual IRI="#Medium_level"/>
+        <NamedIndividual IRI="#Multiple_task"/>
+        <NamedIndividual IRI="#Never"/>
+        <NamedIndividual IRI="#Not_adapted"/>
+        <NamedIndividual IRI="#Often"/>
+        <NamedIndividual IRI="#Outdoor"/>
+        <NamedIndividual IRI="#Simple"/>
+        <NamedIndividual IRI="#Single_task"/>
+        <NamedIndividual IRI="#Sometimes"/>
+        <NamedIndividual IRI="#Usually"/>
+        <NamedIndividual IRI="#XB01.0_Initiating"/>
+        <NamedIndividual IRI="#XB01.1_Maintaining"/>
+        <NamedIndividual IRI="#XB01.2_Discontinuing"/>
+        <NamedIndividual IRI="#XK06_Caudal"/>
+        <NamedIndividual IRI="#XK09_Lateral"/>
+        <NamedIndividual IRI="#XK0P_Infratentorial"/>
+        <NamedIndividual IRI="#XK16_Deep"/>
+        <NamedIndividual IRI="#XK18_Supratentorial"/>
+        <NamedIndividual IRI="#XK2H_External"/>
+        <NamedIndividual IRI="#XK2J_Cranial"/>
+        <NamedIndividual IRI="#XK3Y_Contralateral"/>
+        <NamedIndividual IRI="#XK3Z_Ipsilateral"/>
+        <NamedIndividual IRI="#XK49_Internal"/>
+        <NamedIndividual IRI="#XK4M_Ventral"/>
+        <NamedIndividual IRI="#XK62_Brachial"/>
+        <NamedIndividual IRI="#XK6C_Distal"/>
+        <NamedIndividual IRI="#XK6J_Proximal"/>
+        <NamedIndividual IRI="#XK70_Unilateral"/>
+        <NamedIndividual IRI="#XK7F_Superficial"/>
+        <NamedIndividual IRI="#XK7V_Anterior"/>
+        <NamedIndividual IRI="#XK87_Dorsal"/>
+        <NamedIndividual IRI="#XK8G_Left"/>
+        <NamedIndividual IRI="#XK8L_Posterior"/>
+        <NamedIndividual IRI="#XK9H_Medial"/>
+        <NamedIndividual IRI="#XK9J_Bilateral"/>
+        <NamedIndividual IRI="#XK9K_Right"/>
+        <NamedIndividual IRI="#XT13_Late_Geriatric"/>
+        <NamedIndividual IRI="#XT15_Young_Adult"/>
+        <NamedIndividual IRI="#XT16_Neonatal"/>
+        <NamedIndividual IRI="#XT19_Early_Geriatric"/>
+        <NamedIndividual IRI="#XT2C_Infancy"/>
+        <NamedIndividual IRI="#XT30_Late_Neonatal"/>
+        <NamedIndividual IRI="#XT3N_Perinatal"/>
+        <NamedIndividual IRI="#XT4T_Middle_Adolescence"/>
+        <NamedIndividual IRI="#XT4X_Child_under_5"/>
+        <NamedIndividual IRI="#XT50_Child_over_5"/>
+        <NamedIndividual IRI="#XT6P_Early_Neonatal"/>
+        <NamedIndividual IRI="#XT6S_Adult"/>
+        <NamedIndividual IRI="#XT7M_Adolescent"/>
+        <NamedIndividual IRI="#XT7Q_Early_Adolescence"/>
+        <NamedIndividual IRI="#XT9V_Middle_Childhood"/>
+        <NamedIndividual IRI="#XT9X_Late_Adolescence"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Female"/>
+        <NamedIndividual IRI="#Male"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Female"/>
+        <NamedIndividual IRI="#Male"/>
+        <NamedIndividual IRI="#XK06_Caudal"/>
+        <NamedIndividual IRI="#XK09_Lateral"/>
+        <NamedIndividual IRI="#XK0P_Infratentorial"/>
+        <NamedIndividual IRI="#XK16_Deep"/>
+        <NamedIndividual IRI="#XK18_Supratentorial"/>
+        <NamedIndividual IRI="#XK2H_External"/>
+        <NamedIndividual IRI="#XK2J_Cranial"/>
+        <NamedIndividual IRI="#XK3Y_Contralateral"/>
+        <NamedIndividual IRI="#XK3Z_Ipsilateral"/>
+        <NamedIndividual IRI="#XK49_Internal"/>
+        <NamedIndividual IRI="#XK4M_Ventral"/>
+        <NamedIndividual IRI="#XK62_Brachial"/>
+        <NamedIndividual IRI="#XK6C_Distal"/>
+        <NamedIndividual IRI="#XK6J_Proximal"/>
+        <NamedIndividual IRI="#XK70_Unilateral"/>
+        <NamedIndividual IRI="#XK7F_Superficial"/>
+        <NamedIndividual IRI="#XK7V_Anterior"/>
+        <NamedIndividual IRI="#XK87_Dorsal"/>
+        <NamedIndividual IRI="#XK8G_Left"/>
+        <NamedIndividual IRI="#XK8L_Posterior"/>
+        <NamedIndividual IRI="#XK9H_Medial"/>
+        <NamedIndividual IRI="#XK9J_Bilateral"/>
+        <NamedIndividual IRI="#XK9K_Right"/>
+        <NamedIndividual IRI="#XT13_Late_Geriatric"/>
+        <NamedIndividual IRI="#XT15_Young_Adult"/>
+        <NamedIndividual IRI="#XT16_Neonatal"/>
+        <NamedIndividual IRI="#XT19_Early_Geriatric"/>
+        <NamedIndividual IRI="#XT2C_Infancy"/>
+        <NamedIndividual IRI="#XT30_Late_Neonatal"/>
+        <NamedIndividual IRI="#XT3N_Perinatal"/>
+        <NamedIndividual IRI="#XT4T_Middle_Adolescence"/>
+        <NamedIndividual IRI="#XT4X_Child_under_5"/>
+        <NamedIndividual IRI="#XT50_Child_over_5"/>
+        <NamedIndividual IRI="#XT6P_Early_Neonatal"/>
+        <NamedIndividual IRI="#XT6S_Adult"/>
+        <NamedIndividual IRI="#XT7M_Adolescent"/>
+        <NamedIndividual IRI="#XT7Q_Early_Adolescence"/>
+        <NamedIndividual IRI="#XT9V_Middle_Childhood"/>
+        <NamedIndividual IRI="#XT9X_Late_Adolescence"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Female"/>
+        <NamedIndividual IRI="#Male"/>
+        <NamedIndividual IRI="#XT13_Late_Geriatric"/>
+        <NamedIndividual IRI="#XT15_Young_Adult"/>
+        <NamedIndividual IRI="#XT16_Neonatal"/>
+        <NamedIndividual IRI="#XT19_Early_Geriatric"/>
+        <NamedIndividual IRI="#XT2C_Infancy"/>
+        <NamedIndividual IRI="#XT30_Late_Neonatal"/>
+        <NamedIndividual IRI="#XT3N_Perinatal"/>
+        <NamedIndividual IRI="#XT4T_Middle_Adolescence"/>
+        <NamedIndividual IRI="#XT4X_Child_under_5"/>
+        <NamedIndividual IRI="#XT50_Child_over_5"/>
+        <NamedIndividual IRI="#XT6P_Early_Neonatal"/>
+        <NamedIndividual IRI="#XT6S_Adult"/>
+        <NamedIndividual IRI="#XT7M_Adolescent"/>
+        <NamedIndividual IRI="#XT7Q_Early_Adolescence"/>
+        <NamedIndividual IRI="#XT9V_Middle_Childhood"/>
+        <NamedIndividual IRI="#XT9X_Late_Adolescence"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Female"/>
+        <NamedIndividual IRI="#Male"/>
+        <NamedIndividual IRI="#XT16_Neonatal"/>
+        <NamedIndividual IRI="#XT2C_Infancy"/>
+        <NamedIndividual IRI="#XT30_Late_Neonatal"/>
+        <NamedIndividual IRI="#XT3N_Perinatal"/>
+        <NamedIndividual IRI="#XT4X_Child_under_5"/>
+        <NamedIndividual IRI="#XT50_Child_over_5"/>
+        <NamedIndividual IRI="#XT6P_Early_Neonatal"/>
+        <NamedIndividual IRI="#XT7Q_Early_Adolescence"/>
+        <NamedIndividual IRI="#XT9V_Middle_Childhood"/>
+    </DifferentIndividuals>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ICFContentModelParameter"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#activity"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#relatedEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#activity"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#barrierLevel"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#capacity"/>
+        <ObjectProperty IRI="http://www.adampease.org/OP/SUMO.owl#manner"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#destination"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#destination"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#destination"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#facilitatedBy"/>
+        <ObjectProperty IRI="#influencedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#facilitates"/>
+        <ObjectProperty IRI="#influences"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#facilitationLevel"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#factor"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+        <ObjectProperty IRI="#ICFContentModelParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActivityPrerequisite"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActivityPrerequisite"/>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAge"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#age"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAge"/>
+        <ObjectProperty IRI="#hasSpecificCondition"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAreaOfInfluence"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAreaOfInfluence"/>
+        <ObjectProperty IRI="#hasContextualFactorParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodyFunctionPrerequisite"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodyFunctionPrerequisite"/>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodyStructureInvolved"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodyStructureInvolved"/>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClassificationProperty"/>
+        <ObjectProperty IRI="#ICFContentModelParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCode"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#attribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCode"/>
+        <ObjectProperty IRI="#hasTitle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasComplexity"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasComplexity"/>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasContextualFactorParameter"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasContextualFactorParameter"/>
+        <ObjectProperty IRI="#ICFContentModelParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasExclusionTerm"/>
+        <ObjectProperty IRI="#hasTerm"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFullySpecifiedName"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#attribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFullySpecifiedName"/>
+        <ObjectProperty IRI="#hasTitle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInclusionTerm"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#attribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInclusionTerm"/>
+        <ObjectProperty IRI="#hasTerm"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInfluencingManner"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInfluencingManner"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNarrowerTerm"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#attribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNarrowerTerm"/>
+        <ObjectProperty IRI="#hasTerm"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParent"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#subclass"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParent"/>
+        <ObjectProperty IRI="#hasClassificationProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParticipativeDegreeOfInvolvement"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParticipativeDegreeOfInvolvement"/>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParticipativeFrequencyOfSocialInvolvement"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParticipativeFrequencyOfSocialInvolvement"/>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProcessPhase"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProcessPhase"/>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProductSpecialization"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProductSpecialization"/>
+        <ObjectProperty IRI="#hasContextualFactorParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSex"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSex"/>
+        <ObjectProperty IRI="#hasSpecificCondition"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSpecificCondition"/>
+        <ObjectProperty IRI="#ICFContentModelParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSynonym"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSynonym"/>
+        <ObjectProperty IRI="#hasTerm"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTaskMultiplicity"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTaskMultiplicity"/>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTerm"/>
+        <ObjectProperty IRI="#ICFContentModelParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTitle"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#attribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTitle"/>
+        <ObjectProperty IRI="#ICFContentModelParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopology"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#located"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopology"/>
+        <ObjectProperty IRI="#ICFContentModelParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopologyLaterality"/>
+        <ObjectProperty IRI="#hasTopology"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopologyRegional"/>
+        <ObjectProperty IRI="#hasTopology"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopologyRelational"/>
+        <ObjectProperty IRI="#hasTopology"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasType"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#property"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasType"/>
+        <ObjectProperty IRI="#hasClassificationProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hinders"/>
+        <ObjectProperty IRI="#influences"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hindrancedBy"/>
+        <ObjectProperty IRI="#influencedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#influencedBy"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#influences"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#partOf"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#partOf"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performance"/>
+        <ObjectProperty IRI="http://www.adampease.org/OP/SUMO.owl#manner"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#represents"/>
+        <ObjectProperty IRI="http://www.ontologyportal.org/SUMO.owl#refers"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#represents"/>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#facilitatedBy"/>
+        <ObjectProperty IRI="#facilitates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hinders"/>
+        <ObjectProperty IRI="#hindrancedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#influencedBy"/>
+        <ObjectProperty IRI="#influences"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#destination"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAge"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAreaOfInfluence"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCode"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasComplexity"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasFullySpecifiedName"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasParticipativeDegreeOfInvolvement"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasParticipativeFrequencyOfSocialInvolvement"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasProcessPhase"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasProductSpecialization"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSex"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasTaskMultiplicity"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasTopologyLaterality"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasTopologyRegional"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasTopologyRelational"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasType"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#represents"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.adampease.org/OP/SUMO.owl#manner"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+        <Class IRI="#ICF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#activity"/>
+        <Class IRI="#QualifiedActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#barrierLevel"/>
+        <Class IRI="#Barrier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#capacity"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#destination"/>
+        <Class IRI="#QualifiedActivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#facilitatedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#HealthState"/>
+            <Class IRI="#InfluenceableComponent"/>
+            <Class IRI="#QualifiedActivity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#facilitates"/>
+        <Class IRI="#Influence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#facilitationLevel"/>
+        <Class IRI="#Facilitator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#factor"/>
+        <Class IRI="#Influence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActivityPrerequisite"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAge"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAreaOfInfluence"/>
+        <Class IRI="#ContextualFactors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodyFunctionPrerequisite"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodyStructureInvolved"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClassificationProperty"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCode"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasComplexity"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasContextualFactorParameter"/>
+        <Class IRI="#ContextualFactors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExclusionTerm"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFullySpecifiedName"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInclusionTerm"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInfluencingManner"/>
+        <Class IRI="#Influence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNarrowerTerm"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParent"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParticipativeDegreeOfInvolvement"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParticipativeFrequencyOfSocialInvolvement"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcessPhase"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProductSpecialization"/>
+        <Class IRI="#ContextualFactors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSex"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpecificCondition"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSynonym"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTaskMultiplicity"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTerm"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTitle"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopology"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopologyLaterality"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopologyRegional"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopologyRelational"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hinders"/>
+        <Class IRI="#Influence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hindrancedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#HealthState"/>
+            <Class IRI="#InfluenceableComponent"/>
+            <Class IRI="#QualifiedActivity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influencedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#HealthState"/>
+            <Class IRI="#InfluenceableComponent"/>
+            <Class IRI="#QualifiedActivity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influences"/>
+        <Class IRI="#Influence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#partOf"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Object"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performance"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#represents"/>
+        <Class IRI="#HealthState"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.adampease.org/OP/SUMO.owl#manner"/>
+        <Class IRI="#Difficulty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ICFObjectProperty"/>
+        <Class IRI="#ICF"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#activity"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#barrierLevel"/>
+        <Class IRI="#Hindrance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#capacity"/>
+        <Class IRI="#Difficulty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#destination"/>
+        <Class IRI="#LifeSituation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#facilitatedBy"/>
+        <Class IRI="#Influence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#facilitates"/>
+        <ObjectUnionOf>
+            <Class IRI="#HealthState"/>
+            <Class IRI="#InfluenceableComponent"/>
+            <Class IRI="#QualifiedActivity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#facilitationLevel"/>
+        <Class IRI="#Facilitation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#factor"/>
+        <Class IRI="#ContextualFactors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActivityAndParticipationParameter"/>
+        <Class IRI="#ActivityAndParticipationParameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActivityPrerequisite"/>
+        <Class IRI="#ActivitiesAndParticipation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAge"/>
+        <Class IRI="#LifeCycleAge"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAreaOfInfluence"/>
+        <Class IRI="#AreaOfInfluence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyFunctionPrerequisite"/>
+        <Class IRI="#BodyFunctions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyStructureInvolved"/>
+        <Class IRI="#BodyStructures"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClassificationProperty"/>
+        <Class IRI="#ClassificationProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCode"/>
+        <Class IRI="#Code"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComplexity"/>
+        <Class IRI="#Complexity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasContextualFactorParameter"/>
+        <Class IRI="#ContextualFactorParameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExclusionTerm"/>
+        <Class IRI="#ICFCategory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFullySpecifiedName"/>
+        <Class IRI="#FullySpecifiedName"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInclusionTerm"/>
+        <Class IRI="#InclusionTerm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInfluencingManner"/>
+        <Class IRI="#InfluencingManner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNarrowerTerm"/>
+        <Class IRI="#NarrowerTerm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParent"/>
+        <Class IRI="#Parent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParticipativeDegreeOfInvolvement"/>
+        <Class IRI="#ParticipativeDegreeOfInvolvement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParticipativeFrequencyOfSocialInvolvement"/>
+        <Class IRI="#ParticipativeFrequencyOfSocialInvolvement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcessPhase"/>
+        <Class IRI="#ProcessPhase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProductSpecialization"/>
+        <Class IRI="#ProductSpecialization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSex"/>
+        <Class IRI="#Sex"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpecificCondition"/>
+        <Class IRI="#SpecificCondition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSynonym"/>
+        <Class IRI="#Synonym"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTaskMultiplicity"/>
+        <Class IRI="#TaskMultiplicity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTerm"/>
+        <Class IRI="#Term"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTitle"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopology"/>
+        <Class IRI="#Topology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopologyLaterality"/>
+        <Class IRI="#TopologyLaterality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopologyRegional"/>
+        <Class IRI="#TopologyRegional"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopologyRelational"/>
+        <Class IRI="#TopologyRelational"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hinders"/>
+        <ObjectUnionOf>
+            <Class IRI="#HealthState"/>
+            <Class IRI="#InfluenceableComponent"/>
+            <Class IRI="#QualifiedActivity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hindrancedBy"/>
+        <Class IRI="#Influence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#influencedBy"/>
+        <Class IRI="#Influence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#influences"/>
+        <ObjectUnionOf>
+            <Class IRI="#HealthState"/>
+            <Class IRI="#InfluenceableComponent"/>
+            <Class IRI="#QualifiedActivity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#partOf"/>
+        <Class IRI="http://www.ontologyportal.org/SUMO.owl#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performance"/>
+        <Class IRI="#Difficulty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#represents"/>
+        <Class IRI="#Human"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#barrierLevel"/>
+        <ObjectProperty IRI="#facilitationLevel"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#facilitatedBy"/>
+        <ObjectProperty IRI="#hindrancedBy"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDetailedDefinition"/>
+        <DataProperty IRI="#definition"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasShortDefinition"/>
+        <DataProperty IRI="#definition"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDetailedDefinition"/>
+        <Class IRI="#ICFCategory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasShortDefinition"/>
+        <Class IRI="#ICFCategory"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDetailedDefinition"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasShortDefinition"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActivityPrerequisite</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Activities that the subject should be able to perform in order to execute another activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Code</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A short sequence of characters that uniquely identify an ICF entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExclusionTerm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Terms that are not comprised in the current classification unit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Facilitator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Influence that positively influences (facilitates) health states, influenceable components or activities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FullySpecifiedName</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A name, or label, that represents the ICF entity in a meaningful and unambiguous way.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ICF</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The entire domain of the the International Classification of Functioning, Disability and Health.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InclusionTerm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A selected meaningful subset of terms that depict the content of the entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Influence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Influence exerted by a contextual factor over some influenceable health entities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InfluenceableHealthEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Class of the ICF entities for which it is possible to assess the influence of a contextual factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InfluencingFactor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Contextual factor that exerted some influence over an influenceable health entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InfluencingManner</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Possible reasons why a contextual factor is influencing the subject: presence, absence, accessibility, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NarrowerTerm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A more specific condition than the ICF category that is not represented in an existing descendant of the ICF category.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Parent classification units of the current classification unit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Synonym</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An alternative name for the same entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#activity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the activity of a qualified activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#barrierLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Given a barrier influencing factor, specifies the value of hindrance derived from the factor.
+It is used to assign the magnitude of hindrance given by a barrier factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#destination</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies that the goal of the execution of a qualified activity is to participate to a life situation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#facilitatedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies that an influencing factor has a positive influence over an influenceable health entity.
+It is a sub relation of influencedBy relation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#facilitationLevel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Given a facilitator influencing factor, specifies the value of facilitation derived from the factor.
+It is used to assign the magnitude of facilitation given by a facilitating  factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#factor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies which is the contextual factor of an influencing factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasActivityPrerequisite</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specify the activities that the subject should be able to execute in order to perform an action.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAge</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the age of a human being.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAreaOfInfluence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the extent of influence of an environmental factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasBodyFunctionPrerequisite</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the functioning capabilities that should be present in order to perform an action.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasBodyStructureInvolved</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Defines the body structure used to perform an activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCode</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies a short sequence of characters that uniquely identify an ICF entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasComplexity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the degree of complexity of an activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasExclusionTerm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies ICF entities which, although the title might suggest that they have been classified here, they are in fact classified elsewhere.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFullySpecifiedName</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies a name, or label, that represents the ICF entity in a meaningful and unambiguous way.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasInclusionTerm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies a selected meaningful subset of terms that depict the content of the entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasInfluencingManner</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the cause that produces the influence of an influencing factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNarrowerTerm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies a more specific condition than the ICF category that is not represented in an existing descendant of the ICF category.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasParent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Identifies the higher level categories that cover the full range or scope of another category.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasParticipativeDegreeOfInvolvement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the degree of social involvement of an activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasParticipativeFrequencyOfSocialInvolvement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies how often the execution of an activity represents an involvement in life situation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasProcessPhase</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the phase of a process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasProductSpecialization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies if products used in everyday life are especially designed, or adapted, or not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the sex of a human being.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSynonym</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies an alternative name for the same entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTaskMultiplicity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the multiplicity of a task.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTopology</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the location in the human body related to a classification unit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasType</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the type of a classification unit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hindrancedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies that an influencing factor has a negative influence over an influenceable health entity.
+It is a sub relation of influencedBy relation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#influencedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies that an influencing factor has an influence over an influenceable health entity.
+The nature of the influence, whether positive or negative, is a characteristic of the influencing factor individual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#partOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mereological relation. Specifies that a an object is part of another object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#represents</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Means that a thing in some way indicates, expresses, connotes, pictures, describes, etc. an entity.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
